@@ -33,7 +33,7 @@ export default class Form extends Component {
         render(){
         return (
             <div>
-            <input type="text" onChange={this.updateInput}></input>
+            <input type="text" placeholder="Ingrese el numero" onChange={this.updateInput}></input>
             {/* <input type="submit" onClick={this.handleSubmit} ></input> */}
             
             <table border="1">
